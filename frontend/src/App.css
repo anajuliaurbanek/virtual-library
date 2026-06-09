@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #0f2342;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.bookshelf {
+  background: #f4f2ed;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.shelf {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+
+  background: #284e7a;
+
+  border-radius: 8px;
+}
+
+.book {
+  width: 50px;
+  height: 180px;
+
+  background: linear-gradient(
+    to bottom,
+    #5b7aa0,
+    #18324d
+  );
+
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8px;
+
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.book span {
+  writing-mode: vertical-rl;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
